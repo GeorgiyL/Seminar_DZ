@@ -15,7 +15,18 @@ while(size>count)
 
 Console.WriteLine("Сумма цифр = "+sum);
 
-
+// int num = Convert.ToInt32(Console.ReadLine()); 
+// Console.WriteLine(GetSum(num));
+// int GetSum(int number) // Решение через метод от Вадима на семинаре 5
+// {
+//     int sum =0;
+//     while(number>0)
+//     {
+//         sum+=number%10;
+//         number/=10;
+//     }
+//     return sum;
+// }
 
 // int GetSum(string number) // Пробовал делать так, сумму выдает не верно
 // {
